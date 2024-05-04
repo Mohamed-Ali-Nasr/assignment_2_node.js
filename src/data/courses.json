@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Vanilla Js",
+    "content": "Learn Fundamental Of Js",
+    "departmentId": 2
+  },
+  {
+    "id": 2,
+    "name": "Cascading Style Sheet",
+    "content": "Learn Tailwind & Bootstrap Framework",
+    "departmentId": 3
+  },
+  {
+    "id": 3,
+    "name": "Node Js",
+    "content": "Learn Fundamental Of Node Js",
+    "departmentId": 4
+  }
+]

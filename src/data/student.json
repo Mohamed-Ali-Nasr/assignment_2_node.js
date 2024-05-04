@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "nasr",
+    "email": "nasr@nasr.com",
+    "password": "12345",
+    "departmentId": 2
+  },
+  {
+    "id": 2,
+    "name": "ali",
+    "email": "ali@ali.com",
+    "password": "12345",
+    "departmentId": 3
+  },
+  {
+    "id": 3,
+    "name": "alaa",
+    "email": "alaa@alaa.com",
+    "password": "12345",
+    "departmentId": 4
+  }
+]
