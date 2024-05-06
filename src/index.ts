@@ -10,16 +10,16 @@ const server = http.createServer((req, res) => {
   // Handle the incoming request from the Student Routes
   if (url?.startsWith("/api/students")) {
     studentRoutes(req, res);
-  }
-
-  // Handle the incoming request from the Courses Routes
-  if (url?.startsWith("/api/courses")) {
+    // Handle the incoming request from the Courses Routes
+  } else if (url?.startsWith("/api/courses")) {
     courseRoutes(req, res);
   }
-
   // Handle the incoming request from the Departments Routes
-  if (url?.startsWith("/api/departments")) {
+  else if (url?.startsWith("/api/departments")) {
     departmentsRoutes(req, res);
+  } else {
+    res.writeHead(404, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ message: "Not Found" }));
   }
 });
 
